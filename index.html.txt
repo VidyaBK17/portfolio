@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vidya | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#resume">Resume</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h1>Hi, I'm Vidya</h1>
+    <p>Engineering student | IoT & Web Developer</p>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="resume.pdf" download>Download Resume</a>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Smart Medicine Reminder System</h3>
+      <p>Django, React, Twilio SMS</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: vidya@email.com</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
